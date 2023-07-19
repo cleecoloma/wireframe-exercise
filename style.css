@@ -11,18 +11,18 @@ header {
   margin-bottom: 30px;
 }
 
-#brand-logo {
-  line-height: 0;
-	font-size: 0;
-}
-
-#navbar {
+header div {
   display: flex;
   gap: 30px;
   align-items: center;
 }
 
-#navbar > a {
+header img {
+  line-height: 0;
+	font-size: 0;
+}
+
+header a {
   text-decoration: none;
 }
 
@@ -30,13 +30,13 @@ ul {
   display: flex;
 }
 
-#hero-image {
+main section img {
   margin-bottom: 30px;
   line-height: 0;
 	font-size: 0;
 }
 
-#sub-banner {
+main section:nth-child(2) {
   line-height: 0;
 	font-size: 0;
 }
@@ -45,21 +45,17 @@ img:first-child, img:nth-child(2) {
   margin-right: 30px;
 }
 
-#featured {
+main section:nth-child(3) {
   display: flex;
-  margin-top: 30px;
   max-height: 480px;
 }
 
-#featured-content {
-  max-height: 480px;
-}
-
-#featured-content h2 {
+main section:nth-child(3) h2 {
   font-size: 120%;
   margin-bottom: 30px;
 }
 
-#featured-content p {
+main section:nth-child(3) p {
+  height: 300px;
   overflow: scroll;
 }
