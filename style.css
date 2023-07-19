@@ -1,6 +1,6 @@
-/* * {
+* {
   margin: 0 auto;
-} */
+}
 
 body {
   width: 960px;
@@ -8,12 +8,22 @@ body {
 }
 
 header {
-  display: flex;
-  padding: 1rem;
+  margin-bottom: 30px;
 }
 
-#nav-links {
-  width: 100%;
+#brand-logo {
+  line-height: 0;
+	font-size: 0;
+}
+
+#navbar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#navbar > a {
+  text-decoration: none;
 }
 
 ul {
@@ -22,9 +32,34 @@ ul {
 
 #hero-image {
   margin-bottom: 30px;
+  line-height: 0;
+	font-size: 0;
 }
 
-/* 
-#sub-banner img{
+#sub-banner {
+  line-height: 0;
+	font-size: 0;
+}
+
+img:first-child, img:nth-child(2) {
   margin-right: 30px;
-} */
+}
+
+#featured {
+  display: flex;
+  margin-top: 30px;
+  max-height: 480px;
+}
+
+#featured-content {
+  max-height: 480px;
+}
+
+#featured-content h2 {
+  font-size: 120%;
+  margin-bottom: 30px;
+}
+
+#featured-content p {
+  overflow: scroll;
+}
