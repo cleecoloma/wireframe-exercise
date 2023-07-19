@@ -1,0 +1,30 @@
+/* * {
+  margin: 0 auto;
+} */
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+}
+
+#nav-links {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+}
+
+#hero-image {
+  margin-bottom: 30px;
+}
+
+/* 
+#sub-banner img{
+  margin-right: 30px;
+} */
